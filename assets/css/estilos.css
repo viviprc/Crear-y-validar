@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif; 
-    background-color: #6e9e41; 
+    background-color: #eoeoeo; 
     box-sizing: border-box;
   }
    
@@ -23,7 +23,7 @@ body{
   }
   .inputcss{
      border: solid 1px #ccc;
-     padding: 10px;
+     padding: 0 10px;
   }
   .inputcss:focus{
      border-color:  rgb(124, 193, 250);
@@ -31,7 +31,25 @@ body{
   .center-content{
      text-align: center;
   }
-  h1{
+  h3{
      text-align: center;
-     color: rgb(255, 255, 255);
+     color: #757575;
+  }
+
+   .listado {
+     width: 300px;
+     height: 30px;
+     margin: 0 0 10px;
+     border-radius: 3px;
+     outline: none;
+     border: solid 1px #ccc;
+     color: #757575;
+  }
+
+  #fecha {
+     color: #757575;
+  }
+
+  #hora {
+     color: #757575;
   }
